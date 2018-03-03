@@ -22,7 +22,7 @@ public class Splash extends Activity {
         Animation myanim = AnimationUtils.loadAnimation(this, R.anim.mytransition);
         tv.startAnimation(myanim);
         iv.startAnimation(myanim);
-        final Intent i = new Intent(this,MainActivity.class);
+        final Intent i = new Intent(this,ImagesActivity.class);
         Thread timer = new Thread(){
             public void run (){
                 try {
